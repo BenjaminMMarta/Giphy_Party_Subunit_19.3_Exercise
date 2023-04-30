@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <!-- Input Form Container -->
+  <div class = "inputFormContainer">
+    <!-- Input Form -->
+    <form class = "inputForm">
+      <h1>GIPHY PARTY</h1>
+      <input id = "textInput" type = "text" placeholder="Please Enter Gif Subject Here...">
+      <input id = "submitButton" type = "submit" value= "Search GIPHY!">
+      <button id = "removeImagesButton">Remove Images</button>
+    </form>
+  </div>
+  <!-- Gif Container Which Holds All Searched Gif's -->
+  <div class = "gifContainer"></div>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>

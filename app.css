@@ -1,0 +1,71 @@
+/* General Styling */
+body {
+    background-color: #3e3e3b;
+}
+
+/* Form Container */
+.inputFormContainer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Page Title */
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #cbc5c1;
+    text-shadow: 2px 2px 8px #000000; 
+}
+
+/* Text Input Field */
+#textInput {
+    height: 24px;
+    width: 300px;
+    border: 2px #000000 solid;
+    color: #39324b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* "Search GIPHY!" Button */
+#submitButton {
+    height: 30px;
+    width: 150px;
+    border: 2px #000000 solid;
+    background-color: #4c586f;
+    color: #cbc5c1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* "Remove Images" Button */
+#removeImagesButton {
+    height: 30px;
+    width: 150px;
+    border: 2px #000000 solid;
+    background-color: #4c586f;;
+    color: #cbc5c1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Gif Container Below Input Form */
+.gifContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+
+}
+
+/* Each Individual Gif */
+.newGif {
+    height: 300px;
+    border: 2px #000000 solid;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+
